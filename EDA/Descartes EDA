@@ -1,0 +1,8 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import scipy.stats as stats
+
+#Cambio los nombres de las columnas con renamen y tenerlo más claro
+crimen.rename(columns={'TOTAL NACIONAL':"Tipo de delito",'Unnamed: 1': "año 2022",'Unnamed: 2':'año 2021','Unnamed: 3':'año 2020','Unnamed: 4':'año 2019','Unnamed: 5':'año 2018'})
